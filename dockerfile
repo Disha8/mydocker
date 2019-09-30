@@ -1,4 +1,4 @@
 From  nginx
 
-ADD ./mydocker
+ADD . /mydocker
 WORKDIR /mydocker
