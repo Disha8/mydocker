@@ -1,10 +1,10 @@
 version: '2'
 services: 
     app:
-        build: .
+        build: ./mydocker
         image: app:1.0.0
         volumes:
         - "/var/run/docker.sock:/var/run/docker.sock
         
         ports:
-        - "8080:80"
+        - 8080:80
